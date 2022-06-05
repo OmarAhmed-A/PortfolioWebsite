@@ -6,6 +6,8 @@ currently in the process of migrating to GCP
 ## current status
 free domain from freenom
 
-free hosting with github pages
+free hosting with github pages at https://codebyomar.ml
+
+GCP hosting at https://codebyomar.tk
 
 DNS/SSl by cloudflare
