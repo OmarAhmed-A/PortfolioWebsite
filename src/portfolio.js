@@ -168,20 +168,20 @@ const skills = {
         //     color: "#61DAFB",
         //   },
         // },
-        // {
-        //   skillName: "NodeJS",
-        //   fontAwesomeClassname: "simple-icons:node-dot-js",
-        //   style: {
-        //     color: "#339933",
-        //   },
-        // },
-        // {
-        //   skillName: "NPM",
-        //   fontAwesomeClassname: "simple-icons:npm",
-        //   style: {
-        //     color: "#CB3837",
-        //   },
-        // },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
         // {
         //   skillName: "Yarn",
         //   fontAwesomeClassname: "simple-icons:yarn",
@@ -370,6 +370,7 @@ const degrees = {
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms etc.",
         "⚡ Apart from this, I have done courses on Data Science.",
+        "Graduating in 2025,"
       ],
       website_link: "https://aast.edu/en/",
     },
@@ -657,17 +658,17 @@ const contactPageData = {
   //   link: "https://ashutoshhathidara.wordpress.com",
   //   avatar_image_path: "blogs_image.svg",
   // },
-  addressSection: {
-    title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
-  },
-  phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 8320758513",
-  },
+  // addressSection: {
+  //   title: "Address",
+  //   subtitle:
+  //     "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+  //   avatar_image_path: "address_image.svg",
+  //   location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+  // },
+  // phoneSection: {
+  //   title: "Phone Number",
+  //   subtitle: "+91 8320758513",
+  // },
 };
 
 export {
