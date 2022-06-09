@@ -182,6 +182,13 @@ const skills = {
             color: "#CB3837",
           },
         },
+        {
+          skillName: "Go",
+          fontAwesomeClassname: "simple-icons:go",
+          style: {
+            color: "#00ADD8",
+          },
+        },
         // {
         //   skillName: "Yarn",
         //   fontAwesomeClassname: "simple-icons:yarn",
