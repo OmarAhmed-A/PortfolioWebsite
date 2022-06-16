@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "I am a highly motivated learner, constantly looking to learn new technologies and apply them to real-world problems. I thrive in team environments and enjoy finding new solutions and workarounds to obstacles that can be better suited to the specific issue at hand. I hope to learn about different roles within the industry and how they fit together.",
   resumeLink:
-    "https://drive.google.com/file/d/1pHdJpXsbojHAoDV9FWDfKwpg2AIYWahW/view?usp=sharing",
+    "https://drive.google.com/file/d/1LYBs8fCtDDjDTSfiOLocrLXTI9AHP_6-/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/OmarAhmed-A",
 };
