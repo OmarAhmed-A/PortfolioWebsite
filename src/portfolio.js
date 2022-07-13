@@ -9,11 +9,11 @@ const settings = {
 const seo = {
   title: "Omar's Portfolio",
   description:
-    "I am a highly motivated learner, constantly looking to learn new technologies and apply them to real-world problems. I thrive in team environments and enjoy finding new solutions and workarounds to obstacles that can be better suited to the specific issue at hand. I hope to learn about different roles within the industry and how they fit together.",
+    "Omar's Portfolio is a collection of my work that I have done. I hope you enjoy it.",
   og: {
-    title: "Omar Ahmed's Portfolio",
+    title: "Omar's Portfolio",
     type: "website",
-    url: "http://codebyomar.ml/",
+    url: "https://codebyomar.ml/",
   },
 };
 
