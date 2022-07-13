@@ -118,5 +118,15 @@ export const orangeTheme = {
   jacketColor: "#d7263d",
   headerColor: "#FF6B3577",
 };
-
-export const chosenTheme = blackTheme;
+export const purpleishTheme = {
+  body: "#cfcfcf",
+  text: "#14213d",
+  highlight: "#ffffff",
+  dark: "#000000",
+  secondaryText: "#5A6377",
+  imageHighlight: "#300a24",
+  compImgHighlight: "#E6E6E6",
+  jacketColor: "#8d99ae",
+  headerColor: "#fca31177",
+};
+export const chosenTheme = purpleishTheme;

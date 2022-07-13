@@ -90,29 +90,29 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "Learning to use diffrent tools and exploring use cases (beginner)",
+        "Learning to use diffrent tools and exploring use cases of them",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "scikit-learn",
+          fontAwesomeClassname: "simple-icons:scikit-learn",
           style: {
-            backgroundColor: "transparent",
+            backgroundColor: "#F7931E",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
           style: {
             backgroundColor: "white",
-            color: "#D00000",
+            color: "#150458",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "NumPy",
+          fontAwesomeClassname: "simple-icons:numpy",
           style: {
-            backgroundColor: "transparent",
+            backgroundColor: "#00A1F4",
           },
         },
         {
@@ -654,7 +654,7 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "me.png",
+    profile_image_path: "code.jpg",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
