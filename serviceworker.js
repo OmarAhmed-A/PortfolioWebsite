@@ -1,7 +1,7 @@
 const CACHE_NAME = "version-1";
-const urlsToCache = ['index.html', 'offline.html'];
+const urlsToCache = ['./index.html','./static/js/bundle.js', './offline.html','./'];
 const self = this;
-// Install SW
+// Install SW testing
 self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)
