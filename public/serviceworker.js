@@ -1,5 +1,5 @@
 const CACHE_NAME = "version-1";
-const urlsToCache = ['./index.html','./static/js/bundle.js', './offline.html','./'];
+const urlsToCache = ['/'];
 const self = this;
 // Install SW testing
 self.addEventListener('install', (event) => {
