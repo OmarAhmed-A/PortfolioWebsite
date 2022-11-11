@@ -33,17 +33,25 @@ class CertificationCard extends Component {
               </div>
             </a>
           </div>
-          <div className="cert-body">
-            <h2 className="cert-body-title" style={{ color: theme.text }}>
-              {certificate.title}
-            </h2>
-            <h3
-              className="cert-body-subtitle"
-              style={{ color: theme.secondaryText }}
+
+            <div className="cert-body">
+
+              <h2 className="cert-body-title" style={{ color: theme.text }}>
+                {certificate.title}
+              </h2>
+              <a
+              href={certificate.secondary_link}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              {certificate.subtitle}
-            </h3>
-          </div>
+              <h3
+                className="cert-body-subtitle"
+                style={{ color: theme.secondaryText }}
+              >
+                {certificate.subtitle}
+              </h3></a>
+            </div>
+
         </div>
       </Fade>
     );

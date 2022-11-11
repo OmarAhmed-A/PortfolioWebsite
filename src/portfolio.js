@@ -388,8 +388,9 @@ const certifications = {
   certifications: [
     {
       title: "Data analysis Course",
-      subtitle: "",
-      logo_path: "udacity-2-logo.png",
+      subtitle: "EgFWD scholarship",
+      logo_path: "udacityS.svg",
+      secondary_link: "https://egfwd.com/",
       certificate_link:
         "https://graduation.udacity.com/confirm/LRDA44QV",
       alt_name: "Udacity",
@@ -397,22 +398,24 @@ const certifications = {
     },
     {
       title: "Machine Learning Nanodegree",
-      subtitle: "",
-      logo_path: "udacity-2-logo.png",
+      subtitle: "EgFWD Scholarship",
+      logo_path: "udacityS.svg",
+      secondary_link: "https://egfwd.com/",
       certificate_link:
         "https://confirm.udacity.com/DU5NCRMP",
       alt_name: "Udacity",
       color_code: "#0080FF",
     },
-    // {
-    //   title: "Deep Learning",
-    //   subtitle: "- Andrew Ng",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
+    {
+      title: "Fundamentals of Deep Learning",
+      subtitle: "Nvidia Deep Learning Institute",
+      logo_path: "nvidia-cert-logo.png",
+      secondary_link: "https://www.nvidia.com/en-us/training/",
+      certificate_link:
+        "https://courses.nvidia.com/certificates/5d58177d4fb040e2afbf8aca6deb30db/",
+      alt_name: "Nvidia",
+      color_code: "#76b900",
+    },
     // {
     //   title: "ML on GCP",
     //   subtitle: "- GCP Training",
