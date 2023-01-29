@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "OmarAhmed",
   nickname: "Lucid Paradigm",
   subTitle:
-    "I am a highly motivated learner, constantly looking to learn new technologies and apply them to real-world problems. I thrive in team environments and enjoy finding new solutions and workarounds to obstacles that can be better suited to the specific issue at hand. I hope to learn about different roles within the industry and how they fit together.",
+    "I am a tech-savvy problem solver with a passion for continuously expanding my skillset and applying it to real-world challenges. I excel in collaborative environments and take pride in creatively overcoming obstacles with tailored solutions. I am eager to dive into the various roles and dynamics of the industry and how they intersect to drive innovation.",
   resumeLink:
-    "https://drive.google.com/file/d/1sJKjo0s1rSi1wy6sgTtPbweQ2Ta71AS5/view?usp=share_link",
+    "https://drive.google.com/file/d/1pK--8TB9HNXk1kD2blTn3AZyUvEpFqPr/view",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/OmarAhmed-A",
 };
