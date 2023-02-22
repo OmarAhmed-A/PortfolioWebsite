@@ -394,7 +394,7 @@ const certifications = {
       certificate_link:
         "https://graduation.udacity.com/confirm/LRDA44QV",
       alt_name: "Udacity",
-      color_code: "#0080FF",
+      color_code: "#FFFFFF",
     },
     {
       title: "Machine Learning Nanodegree",
@@ -404,7 +404,7 @@ const certifications = {
       certificate_link:
         "https://confirm.udacity.com/DU5NCRMP",
       alt_name: "Udacity",
-      color_code: "#0080FF",
+      color_code: "#FFFFFF",
     },
     {
       title: "Fundamentals of Deep Learning",
