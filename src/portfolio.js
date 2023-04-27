@@ -93,6 +93,29 @@ const skills = {
         "Learning to use diffrent tools and exploring use cases of them",
       ],
       softwareSkills: [
+
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
         {
           skillName: "scikit-learn",
           fontAwesomeClassname: "simple-icons:scikit-learn",
@@ -226,13 +249,14 @@ const skills = {
           style: {
             color: "#4285F4",
           },
+        }, {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
         },
-        // {
-        //   skillName: "AWS",
-        //   fontAwesomeClassname: "simple-icons:amazonaws",
-        //   style: {
-        //     color: "#FF9900",
-        //   },
+
         // },
         // {
         //   skillName: "Azure",
@@ -687,7 +711,7 @@ const contactPageData = {
   // phoneSection: {
   //   title: "Phone Number",
   //   subtitle: "+91 8320758513",
-  // },
+  // },  
 };
 
 export {
