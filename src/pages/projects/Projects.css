@@ -17,6 +17,7 @@
 }
 
 .projects-heading-img-div {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -65,12 +66,10 @@
   font-weight: 600;
 }
 .repo-cards-div-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1rem 1rem;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 60px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
 }
 
 @media (max-width: 1380px) {

@@ -545,6 +545,17 @@ const experience = {
       title: "Extra curricular activities",
       experiences: [
         {
+          title: "Embedded electronics Team member",
+          company: "IEEE AAST student branch",
+          company_url: "https://www.ieee.org/",
+          logo_path: "IEEE-logo.png",
+          duration: "Sep 2022 – Present",
+          location: "Cairo, Egypt",
+          description:
+            "• Volunteered to help organise IEEE Explore a Worldwide programming competition held at Aast for the Egypt Section. \n • Worked on research and development of a small maze-solving robot for micro-mouse competition. \n • Developed a Python Teaching program for IEEE Women in Engineering (WIE) to teach Python to high school students.",
+          color: "#0879bf",
+        },
+        {
           title: "Enactus entrepreneurs team member",
           company: "Enactus AAST",
           company_url: "https://enactus.org/",
@@ -555,6 +566,7 @@ const experience = {
             "Joined Enactus AAST on the entrepreneurs team which included travelling to do site visits in underdeveloped areas in Egypt and interviewing locals, attending meetings and brainstorming sessions, creating reports based on the interviews and the research for ideas to improve the wellbeing of the people we interviewed. All while trying to accomplish one or more of the sustainable development goals of the United Nations.",
           color: "#0879bf",
         },
+        
         //     {
         //       title: "Android and ML Developer",
         //       company: "Muffito Incorporation",
@@ -686,6 +698,11 @@ const publicationsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
+const publications = {
+  data: [
+  ],
+};
+
 // Contact Page
 const contactPageData = {
   contactSection: {
@@ -726,5 +743,6 @@ export {
   experience,
   projectsHeader,
   publicationsHeader,
+  publications,
   contactPageData,
 };
