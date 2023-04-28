@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Omar Ahmed",
   logo_name: "OmarAhmed",
-  nickname: "Lucid Paradigm",
+  nickname: "",
   subTitle:
     "I am a tech-savvy problem solver with a passion for continuously expanding my skillset and applying it to real-world challenges. I excel in collaborative environments and take pride in creatively overcoming obstacles with tailored solutions. I am eager to dive into the various roles and dynamics of the industry and how they intersect to drive innovation.",
   resumeLink:
