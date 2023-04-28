@@ -8,7 +8,7 @@ class ExperienceAccordion extends Component {
     const theme = this.props.theme;
     return (
       <div className="experience-accord">
-        <Accordion onChange={({ expanded }) => console.log(expanded)}>
+        <Accordion>
           {this.props.sections.map((section) => {
             return (
               <Panel
@@ -24,6 +24,10 @@ class ExperienceAccordion extends Component {
                       borderColor: `${theme.headerColor}`,
                       marginBottom: `3px`,
                       fontFamily: "Google Sans Regular",
+                      color: `${theme.text}`,
+                      ":hover": {
+                        color: `${theme.secondaryText}`,
+                      },
                     }),
                   },
                   Content: {
