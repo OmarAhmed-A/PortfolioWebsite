@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "omar-portfolio",
-  "homepage": "omarcodes.me",
+  "homepage": "https://omarcodes.me/",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
