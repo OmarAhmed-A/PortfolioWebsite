@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "I am a tech-savvy problem solver with a passion for continuously expanding my skillset and applying it to real-world challenges. I excel in collaborative environments and take pride in creatively overcoming obstacles with tailored solutions. I am eager to dive into the various roles and dynamics of the industry and how they intersect to drive innovation.",
   resumeLink:
-    "https://drive.google.com/file/d/1pK--8TB9HNXk1kD2blTn3AZyUvEpFqPr/view",
+    "https://drive.google.com/file/d/1nM_7djPARpIRKbbD7RPjNG_an0VgWdwG/view",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/OmarAhmed-A",
 };
