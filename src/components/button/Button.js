@@ -13,12 +13,13 @@ const onMouseOut = (event, color, bgColor) => {
   el.style.backgroundColor = bgColor;
 };
 
-export default function Button({ text, className, href, newTab, theme }) {
+export default function Button({ text, className, href, newTab, theme, download }) {
   return (
     <div className={className}>
       <a
         class="main-button"
         href={href}
+        download={download}
         target={newTab && "_blank"}
         style={{
           color: theme.body,

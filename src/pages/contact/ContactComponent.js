@@ -1,16 +1,42 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
+import Button from "../../components/button/Button";
+
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
+import { greeting, contactPageData } from "../../portfolio.js"; 
 
-import Resume from '../../assests/Resume.pdf';
+import Resume from "../../assests/Resume.pdf";
 
-const ContactData = contactPageData.contactSection;
+import { Document, Page, pdfjs } from "react-pdf"; 
+import "react-pdf/dist/esm/Page/TextLayer.css";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+
+
+import cmuSerifRomanFont from "../../assests/fonts/cmunrm.ttf";
+
+// the pdf worker is used to render the pdf in the browser
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+pdfjs.GlobalWorkerOptions.fontExtraPropertiesUrl = cmuSerifRomanFont;
+
 const socialMediaLinks = contactPageData.socialMediaLinks;
+
+
+function PDFViewer() {
+  
+
+  return (
+    <div className="pdf">
+     
+      <Document file={Resume} font={cmuSerifRomanFont}>
+        <Page pageNumber={1} renderTextLayer={true} renderMode="svg" width={window.innerWidth - 20}/>
+      </Document> 
+    </div>
+  );
+}
 
 class Contact extends Component {
   render() {
@@ -21,17 +47,20 @@ class Contact extends Component {
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
-              <div className="social-media-div">
-                <SocialMedia theme={theme} links={socialMediaLinks}/>
+              <div className={["social-media-div", "center it"]}  >
+                <SocialMedia theme={theme} links={socialMediaLinks} />
               </div>
-              <div className="pdf-iframe">
-                <iframe
-                  src={Resume}
-                  allow="autoplay"
-                  title="My resume"
-                ></iframe>
+
+              <div className="resume-btn-div">
+                  <Button
+                    text="Download My Resume"
+                    newTab={true}
+                    href={Resume}
+                    download="Omar-Ahmed-Elsayed-Resume.pdf"
+                    theme={theme}
+                  />
               </div>
-              
+              <PDFViewer />
             </div>
           </Fade>
         </div>
