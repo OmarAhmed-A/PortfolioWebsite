@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.79940a4e.css",
-    "main.js": "/static/js/main.2b1fdca6.js",
+    "main.css": "/static/css/main.93e135e6.css",
+    "main.js": "/static/js/main.2f256401.js",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
     "static/media/me.png": "/static/media/me.1c4a437249f6a2474005.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/cmunrm.ttf": "/static/media/cmunrm.8ff5cee913df84291549.ttf",
     "static/media/dsc_logo.png": "/static/media/dsc_logo.fdf993910e3f48d0cf30.png",
     "static/media/fa-solid-900.eot": "/static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf",
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.4e8f9fa44f7ec7479c39.svg",
-    "static/media/Resume.pdf": "/static/media/Resume.1cb754311a164810809c.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.9130178b89c4067f5730.pdf",
     "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.b09f783b99c88d6989f7.eot",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.ec7723ea62ad74c14959.ttf",
     "static/media/code.jpg": "/static/media/code.328d43225c4a2c557b64.jpg",
@@ -65,11 +66,11 @@
     "static/media/googleAssistant.svg": "/static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.79940a4e.css.map": "/static/css/main.79940a4e.css.map",
-    "main.2b1fdca6.js.map": "/static/js/main.2b1fdca6.js.map"
+    "main.93e135e6.css.map": "/static/css/main.93e135e6.css.map",
+    "main.2f256401.js.map": "/static/js/main.2f256401.js.map"
   },
   "entrypoints": [
-    "static/css/main.79940a4e.css",
-    "static/js/main.2b1fdca6.js"
+    "static/css/main.93e135e6.css",
+    "static/js/main.2f256401.js"
   ]
 }
