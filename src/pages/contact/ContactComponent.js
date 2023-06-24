@@ -47,7 +47,7 @@ class Contact extends Component {
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
-              <div className={["social-media-div", "center it"]}  >
+              <div className={["social-media-div", "centerit"]}  >
                 <SocialMedia theme={theme} links={socialMediaLinks} />
               </div>
 
