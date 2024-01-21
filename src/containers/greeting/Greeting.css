@@ -29,7 +29,22 @@
   display: flex;
   margin-top: 20px;
 }
-
+.Bio{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Google Sans Medium";
+}
+.Bio-Head{
+  font-size: 30px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin-bottom: 10px;
+}
 .greeting-text {
   margin-top: 80px;
   font-size: 70px;

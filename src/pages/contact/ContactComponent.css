@@ -5,6 +5,11 @@
   margin-top: 5px;
   
 }
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
 .social-media-div {
   font-size: 2em;
   display: flex;
