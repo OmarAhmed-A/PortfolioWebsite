@@ -116,13 +116,13 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
-        {
-          skillName: "scikit-learn",
-          fontAwesomeClassname: "simple-icons:scikit-learn",
-          style: {
-            backgroundColor: "#F7931E",
-          },
-        },
+        // {
+        //   skillName: "scikit-learn",
+        //   fontAwesomeClassname: "simple-icons:scikit-learn",
+        //   style: {
+        //     backgroundColor: "#F7931E",
+        //   },
+        // },
         {
           skillName: "pandas",
           fontAwesomeClassname: "simple-icons:pandas",
@@ -176,28 +176,28 @@ const skills = {
             color: "#181717",
           },
         },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
         // {
-        //   skillName: "ReactJS",
-        //   fontAwesomeClassname: "simple-icons:react",
+        //   skillName: "JavaScript",
+        //   fontAwesomeClassname: "simple-icons:javascript",
         //   style: {
-        //     color: "#61DAFB",
+        //     backgroundColor: "#000000",
+        //     color: "#F7DF1E",
         //   },
         // },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#339933",
+            color: "#61DAFB",
           },
         },
+        // {
+        //   skillName: "NodeJS",
+        //   fontAwesomeClassname: "faNodeJs",
+        //   style: {
+        //     color: "#339933",
+        //   },
+        // },
         {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
@@ -272,13 +272,14 @@ const skills = {
         //     color: "#FFCA28",
         //   },
         // },
-        // {
-        //   skillName: "PostgreSQL",
-        //   fontAwesomeClassname: "simple-icons:postgresql",
-        //   style: {
-        //     color: "#336791",
-        //   },
-        // },
+        
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#336791",
+          },
+        },
         // {
         //   skillName: "MongoDB",
         //   fontAwesomeClassname: "simple-icons:mongodb",
