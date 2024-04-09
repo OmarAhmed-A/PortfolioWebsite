@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0b12d60.css",
-    "main.js": "/static/js/main.49794404.js",
+    "main.css": "/static/css/main.39ca085d.css",
+    "main.js": "/static/js/main.6ecd76f2.js",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/Slides.pdf": "/static/media/Slides.3ba472ee941dcce8a2b7.pdf",
@@ -12,7 +12,6 @@
     "static/media/dsc_logo.png": "/static/media/dsc_logo.fdf993910e3f48d0cf30.png",
     "static/media/fa-solid-900.eot": "/static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf",
-    "static/media/Resume.pdf": "/static/media/Resume.80383179dbe23e8f0b33.pdf",
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.4e8f9fa44f7ec7479c39.svg",
     "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.b09f783b99c88d6989f7.eot",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.ec7723ea62ad74c14959.ttf",
@@ -54,11 +53,13 @@
     "static/media/pwa.png": "/static/media/pwa.5107022416df1293dd12.png",
     "static/media/experience.svg": "/static/media/experience.c50c576af78a4172f78d.svg",
     "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
+    "static/media/CM6.ttf": "/static/media/CM6.e0e45e60f352b06f3a93.ttf",
     "static/media/udacity-2-logo.png": "/static/media/udacity-2-logo.92f7118e301ef1674358.png",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
     "static/media/feelingProud.svg": "/static/media/feelingProud.288e616ff8dc11bd4713.svg",
     "static/media/cloud_infrastructure.svg": "/static/media/cloud_infrastructure.e87c001f979bf28e40b6.svg",
     "static/media/blogs_image.svg": "/static/media/blogs_image.08bcc48d9a3783389c93.svg",
+    "static/media/CM6.woff": "/static/media/CM6.9c4a365e29ce2cae6b98.woff",
     "static/media/data_science.svg": "/static/media/data_science.b69a86443d81f798d758.svg",
     "static/media/udacityS.svg": "/static/media/udacityS.a788ab10eab93db4ac43.svg",
     "static/media/fullstack.svg": "/static/media/fullstack.32a1ffc74848a2ed7dbf.svg",
@@ -67,11 +68,11 @@
     "static/media/googleAssistant.svg": "/static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.a0b12d60.css.map": "/static/css/main.a0b12d60.css.map",
-    "main.49794404.js.map": "/static/js/main.49794404.js.map"
+    "main.39ca085d.css.map": "/static/css/main.39ca085d.css.map",
+    "main.6ecd76f2.js.map": "/static/js/main.6ecd76f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0b12d60.css",
-    "static/js/main.49794404.js"
+    "static/css/main.39ca085d.css",
+    "static/js/main.6ecd76f2.js"
   ]
 }
