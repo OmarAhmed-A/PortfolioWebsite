@@ -1,8 +1,17 @@
+@font-face {
+  font-family: 'CM6';
+  src: url('../../assests/fonts/CM6.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../../assests/fonts/CM6.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+
 .pdf {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 5px;
+  font:inherit;
+  font-family: CM6 ;
   
 }
 

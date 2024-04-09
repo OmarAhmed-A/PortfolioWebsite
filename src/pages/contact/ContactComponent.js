@@ -16,11 +16,11 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
-import cmuSerifRomanFont from "../../assests/fonts/cmunrm.ttf";
+import CM6 from "../../assests/fonts/CM6.woff";
 
 // the pdf worker is used to render the pdf in the browser
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-pdfjs.GlobalWorkerOptions.fontExtraPropertiesUrl = cmuSerifRomanFont;
+pdfjs.GlobalWorkerOptions.fontExtraPropertiesUrl = CM6;
 
 const socialMediaLinks = contactPageData.socialMediaLinks;
 
@@ -34,10 +34,10 @@ window.addEventListener("orientationchange", () => {
 function PDFViewer() {
   return (
     <div className="pdf">
-      <Document file={Resume} /*font={cmuSerifRomanFont}*/>
+      <Document file={Resume} /*font={CM6}*/>
         <Page
           pageNumber={1}
-          renderTextLayer={true}
+          // renderTextLayer={true}
           renderMode="svg"
           width={
             window.innerWidth > 700
@@ -79,34 +79,7 @@ class Contact extends Component {
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
-      // <div className="contact-main">
-      //   <Header theme={theme} />
-      //   <div className="basic-contact">
-      //     <Fade bottom duration={1000} distance="40px">
-      //       <div className="contact-heading-div">
-      //         <div className={["social-media-div", "centerit"]}>
-      //           <SocialMedia theme={theme} links={socialMediaLinks} />
-      //         </div>
-
-      //         <div className="resume-btn-div">
-      //           <Button
-      //             text="Download My Resume"
-      //             newTab={true}
-      //             href={Resume}
-      //             download="Omar-Ahmed-Elsayed-Resume.pdf"
-      //             theme={theme}
-      //           />
-      //         </div>
-      //         {/* You don't need the PDFViewer component anymore */}
-      //         <div className="pdf">
-      //           <embed src={Resume} type="application/pdf" width="100%" height="600px" />
-      //         </div>
-      //       </div>
-      //     </Fade>
-      //   </div>
-      //   <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-      //   <TopButton theme={this.props.theme} />
-      // </div>
+      
     );
   }
 }
