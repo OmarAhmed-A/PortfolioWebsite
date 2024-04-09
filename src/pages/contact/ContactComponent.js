@@ -9,8 +9,6 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
-// import Resume from "../../assests/Resume.pdf";
-// import Resume from "https://cdn.jsdelivr.net/gh/OmarAhmed-A/Resume/Current-Full/Resume.pdf";
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/TextLayer.css";
@@ -24,7 +22,7 @@ pdfjs.GlobalWorkerOptions.fontExtraPropertiesUrl = CM6;
 
 const socialMediaLinks = contactPageData.socialMediaLinks;
 
-const Resume = "https://cdn.jsdelivr.net/gh/OmarAhmed-A/Resume/Current-Full/Resume.pdf";
+const Resume = "https://cdn.jsdelivr.net/gh/OmarAhmed-A/Resume/Current-Full/Omar-Ahmed-Elsayed-Resume.pdf";
 
 
 window.addEventListener("orientationchange", () => {
