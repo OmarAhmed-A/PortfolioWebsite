@@ -22,8 +22,8 @@ pdfjs.GlobalWorkerOptions.fontExtraPropertiesUrl = CM6;
 
 const socialMediaLinks = contactPageData.socialMediaLinks;
 
-const Resume = "https://cdn.jsdelivr.net/gh/OmarAhmed-A/Resume/Current-Full/Omar-Ahmed-Elsayed-Resume.pdf";
-
+// const Resume = "https://cdn.jsdelivr.net/gh/OmarAhmed-A/Resume/Current-Full/Omar-Ahmed-Elsayed-Resume.pdf";
+const Resume = "https://raw.githubusercontent.com/OmarAhmed-A/Resume/master/Current-Full/Omar-Ahmed-Elsayed-Resume.pdf";
 
 window.addEventListener("orientationchange", () => {
   window.location.reload();
