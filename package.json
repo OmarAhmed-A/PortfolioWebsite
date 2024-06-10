@@ -4,46 +4,38 @@
   "homepage": "https://omarx.uk/",
   "version": "0.1.0",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test"
   },
   "dependencies": {
-    "@apollo/react-hooks": "^3.1.3",
-    "apollo-boost": "^0.4.4",
-    "baseui": "^9.65.3",
-    "bootstrap": "^4.4.1",
-    "chart.js": "^2.9.3",
-    "fs": "0.0.1-security",
-    "graphql": "^14.5.8",
-    "node-fetch": "^2.6.0",
-    "radium": "^0.26.0",
-    "react": "^16.10.2",
-    "react-bootstrap": "^1.0.0-beta.16",
-    "react-chartjs-2": "^2.9.0",
-    "react-dom": "^16.10.2",
+    "apollo-boost": "^0.4.9",
+    "baseui": "^9.116.3",
+    "chart.js": "^2.9.4",
+    "gh-pages": "^2.2.0",
+    "node-fetch": "^2.7.0",
+    "prettier-package-json": "^2.8.0",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.6.8",
+    "react-chartjs-2": "^2.11.2",
+    "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
-    "react-pdf": "^7",
+    "react-pdf": "^7.7.3",
     "react-reveal": "^1.2.2",
-    "react-router-dom": "^5.1.2",
+    "react-router-dom": "^5.3.4",
     "react-scripts": "^5.0.1",
-    "react-spring": "^8.0.27",
-    "styled-components": "^5.1.1",
-    "styletron-engine-atomic": "^1.4.6",
+    "styled-components": "^5.3.11",
+    "styletron-engine-atomic": "^1.6.2",
     "styletron-react": "^5.2.7"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
-    "@iconify/icons-logos": "^1.2.18",
-    "@iconify/react": "^4.0.0",
-    "dotenv": "^10.0.0",
-    "fs-extra": "^10.0.0",
-    "gh-pages": "^3.2.3",
-    "prettier": "2.7.1",
-    "prettier-package-json": "^2.7.0"
+    "dotenv": "^6.2.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "prettier": "2.0.5"
   },
   "browserslist": {
     "production": [
@@ -59,5 +51,21 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.json": "prettier-package-json --write",
+    "*.{js,css,md}": "prettier --write"
+  },
+  "trustedDependencies": [
+    "baseui",
+    "canvas",
+    "core-js",
+    "es5-ext",
+    "husky"
+  ]
 }
