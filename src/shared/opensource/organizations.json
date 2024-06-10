@@ -1,9 +1,1 @@
-{
-    "data": [
-        {
-            "login": "Mokbel-eg",
-            "avatarUrl": "https://avatars.githubusercontent.com/u/137790671?v=4",
-            "__typename": "Organization"
-        }
-    ]
-}
+{"data":[{"login":"Mokbel-eg","avatarUrl":"https://avatars.githubusercontent.com/u/137790671?v=4","__typename":"Organization"}]}
