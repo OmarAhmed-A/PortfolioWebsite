@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.39ca085d.css",
-    "main.js": "/static/js/main.6638d5a3.js",
+    "main.css": "/static/css/main.dd2da142.css",
+    "main.js": "/static/js/main.a2d995d7.js",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/Slides.pdf": "/static/media/Slides.3ba472ee941dcce8a2b7.pdf",
@@ -61,18 +61,21 @@
     "static/media/blogs_image.svg": "/static/media/blogs_image.08bcc48d9a3783389c93.svg",
     "static/media/CM6.woff": "/static/media/CM6.9c4a365e29ce2cae6b98.woff",
     "static/media/data_science.svg": "/static/media/data_science.b69a86443d81f798d758.svg",
+    "static/media/tp-logo.svg": "/static/media/tp-logo.030595313ec1eb9a8ff9.svg",
     "static/media/udacityS.svg": "/static/media/udacityS.a788ab10eab93db4ac43.svg",
     "static/media/fullstack.svg": "/static/media/fullstack.32a1ffc74848a2ed7dbf.svg",
     "static/media/education.svg": "/static/media/education.f1f9892bc5e2e1ca146a.svg",
+    "static/media/dell-logo.svg": "/static/media/dell-logo.e8102371e046a26cd9d4.svg",
     "index.html": "/index.html",
+    "static/media/tp-icon.svg": "/static/media/tp-icon.f186a18b08a34eaa10ca.svg",
     "static/media/googleAssistant.svg": "/static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.39ca085d.css.map": "/static/css/main.39ca085d.css.map",
-    "main.6638d5a3.js.map": "/static/js/main.6638d5a3.js.map"
+    "main.dd2da142.css.map": "/static/css/main.dd2da142.css.map",
+    "main.a2d995d7.js.map": "/static/js/main.a2d995d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.39ca085d.css",
-    "static/js/main.6638d5a3.js"
+    "static/css/main.dd2da142.css",
+    "static/js/main.a2d995d7.js"
   ]
 }
