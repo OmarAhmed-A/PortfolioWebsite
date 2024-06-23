@@ -525,10 +525,9 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
-  description: "I am looking for work experience.",
+  description: "Click on the sections below to checkout my experience.",
   header_image_path: "experience.svg",
   sections: [
-
     {
       title: "Work Experience",
       experiences: [
@@ -538,15 +537,19 @@ const experience = {
           company_url: "https://www.teleperformance.com/",
           logo_path: "tp-icon.svg",
           duration: "June 2023 – Dec 2023",
-          location: "Gurgaon, Haryana",
-          description: `
-                          • Provided exceptional support to customers, resolving complex issues.
-            • Assisted in training and onboarding new agents, ensuring they were equipped with the necessary knowledge and skills.
-            • Demonstrated strong communication and interpersonal abilities while interacting with customers and team members.
-            • Developed problem-solving and critical thinking skills by analyzing and troubleshooting technical challenges.
-            • Exhibited adaptability and a willingness to learn, staying updated with the latest technologies and industry trends.
-            • Strictly followed quality standards and procedures to deliver consistent and compliant service.
-            • Handled sensitive customer data with utmost care, adhering to PCI compliance and data security protocols.`,
+          location: "Cairo, Egypt",
+          description: 
+          `
+          <ul>
+          <li>Provided exceptional support to customers, resolving complex issues.</li>
+          <li>Assisted in training and onboarding new agents, ensuring they were equipped with the necessary knowledge and skills.</li>
+          <li>Demonstrated strong communication and interpersonal abilities while interacting with customers and team members.</li>
+          <li>Developed problem-solving and critical thinking skills by analyzing and troubleshooting technical challenges.</li>
+          <li>Exhibited adaptability and a willingness to learn, staying updated with the latest technologies and industry trends.</li>
+          <li>Strictly followed quality standards and procedures to deliver consistent and compliant service.</li>
+          <li>Handled sensitive customer data with utmost care, adhering to PCI compliance and data security protocols.</li>
+          </ul>
+          `,
           color: "#ee3c26",
         },
       ],
@@ -561,15 +564,17 @@ const experience = {
           logo_path: "dell-logo.svg",
           duration: "March 2023",
           location: "Cairo, Egypt",
-          description: `
-                    • Collaborated in a team of six (DigitalSquad) to develop an intelligent agent for a maze problem using Deep Q-Networks algorithm.
-        • Implemented DQN algorithm in TensorFlow and PyTorch, and created a central repository for the code.
-        • Set up a cloud server on AWS EC2, and a Conda environment to reduce latency and ensure smooth code execution.
-        • Provided assistance on the algorithmic approach, and developed a translation layer for standard RL algorithms to work with the
-        non standard competition environment.
-        • Ranked seventh out of 10 teams in the final phase, from 30 of 200 teams that signed up for phase one.
-        • Won the award for best spirit team, and gained valuable experience in machine learning, teamwork, and problem-solving.
-`,
+          description: 
+          `
+          <ul>
+          <li>Collaborated in a team of six (DigitalSquad) to develop an intelligent agent for a maze problem using Deep Q-Networks algorithm.</li>
+          <li>Implemented DQN algorithm in TensorFlow and PyTorch, and created a central repository for the code.</li>
+          <li>Set up a cloud server on AWS EC2, and a Conda environment to reduce latency and ensure smooth code execution.</li>
+          <li>Provided assistance on the algorithmic approach, and developed a translation layer for standard RL algorithms to work with the non standard competition environment.</li>
+          <li>Ranked seventh out of 10 teams in the final phase, from 30 of 200 teams that signed up for phase one.</li>
+          <li>Won the award for best spirit team, and gained valuable experience in machine learning, teamwork, and problem-solving.</li>
+          </ul>
+          `,
           color: "#0879bf",
         },
         {
@@ -579,10 +584,13 @@ const experience = {
           logo_path: "IEEE-logo.png",
           duration: "Sep 2022 - Present",
           location: "Cairo, Egypt",
-          description: `
-          • Volunteered to help organise IEEE Explore a Worldwide programming competition held at Aast for the Egypt Section.
-          • Worked on research and development of a small maze-solving robot for micro-mouse competition.
-          • Developed a Python Teaching program for IEEE Women in Engineering (WIE) to teach Python to high school students.
+          description: 
+          `
+          <ul>
+          <li>Volunteered to help organise IEEE Explore a Worldwide programming competition held at Aast for the Egypt Section.</li>
+          <li>Worked on research and development of a small maze-solving robot for micro-mouse competition.</li>
+          <li>Developed a Python Teaching program for IEEE Women in Engineering (WIE) to teach Python to high school students.</li>
+          </ul>
           `,
           color: "#0879bf",
         },
@@ -593,17 +601,18 @@ const experience = {
           logo_path: "Enactus-logo.png",
           duration: "september 2020 - february 2021",
           location: "Cairo, Egypt",
-          description: `
-            • Collaborated with team members to achieve target results from the UN SDGs.
-            • Created research reports to document and communicate goals and accomplishments.
-            • Identified issues, analyzed information, and provided solutions to problems in biweekly meetings.
-            `,
+          description: 
+          `
+          <ul>
+          <li>Collaborated with team members to achieve target results from the UN SDGs.</li>
+          <li>Created research reports to document and communicate goals and accomplishments.</li>
+          <li>Identified issues, analyzed information, and provided solutions to problems in biweekly meetings.</li>
+          </ul>
+          `,
           color: "#0879bf",
         },
       ],
     },
-
-    
 
     //     {
     //       title: "Android and ML Developer",
