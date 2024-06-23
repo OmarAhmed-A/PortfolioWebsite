@@ -532,11 +532,29 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Software Engineer for AI Training Data",
+          company: "Outlier.Ai",
+          company_url: "https://outlier.ai/",
+          logo_path: "outlier.svg",
+          duration: "June 2024 - Present",
+          location: "Cairo, Egypt",
+          description: 
+          `
+          <ul>
+          <li>Provided expert-level human feedback on LLM outputs for SQL and Python tasks, enhancing model accuracy and relevance.</li>
+          <li>Collaborated with engineering teams to refine model training processes through consistent, detailed feedback.</li>
+          <li>Evaluated and annotated data outputs, ensuring high-quality training data for LLM development.</li>
+          <li>Assessed model performance, identifying errors and suggesting improvements to enhance algorithm performance.</li>
+          <li>Communicated insights and recommendations effectively with team leads, guiding iterative enhancements in model development.</li>
+          </ul>
+          `,
+          color: "#ee3c26",
+        },{
           title: "Subject Matter Expert and Technical Support Agent",
           company: "Teleperformance Egypt (OFF-SHORE Account)",
           company_url: "https://www.teleperformance.com/",
           logo_path: "tp-icon.svg",
-          duration: "June 2023 – Dec 2023",
+          duration: "June 2023 - Dec 2023",
           location: "Cairo, Egypt",
           description: 
           `
