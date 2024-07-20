@@ -51,7 +51,7 @@ const socialMediaLinks = [
   // },
   {
     name: "Gmail",
-    link: "mailto:omarahmed170@gmail.com",
+    link: "mailto:omar@omarx.uk",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
