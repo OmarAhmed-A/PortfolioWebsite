@@ -401,12 +401,31 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Data analysis Course",
-      subtitle: "EgFWD scholarship",
-      logo_path: "udacityS.svg",
-      secondary_link: "https://egfwd.com/",
-      certificate_link: "https://graduation.udacity.com/confirm/LRDA44QV",
-      alt_name: "Udacity",
+      title: "Visa Token Service Technology Virtual Experience Program",
+      subtitle: "Visa - Forage",
+      logo_path: "visa-logo.png",
+      secondary_link: "https://www.theforage.com/",
+      certificate_link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Visa/8ebZgyZyLA6h5gyqt_Visa_CxSSnup6ZjYxTvK6e_1676647035163_completion_certificate.pdf",
+      alt_name: "Visa",
+      color_code: "#FFFFFF",
+    },    
+    {
+      title: "Fundamentals of Deep Learning",
+      subtitle: "Nvidia Deep Learning Institute",
+      logo_path: "nvidia-cert-logo.png",
+      secondary_link: "https://www.nvidia.com/en-us/training/",
+      certificate_link:
+        "https://courses.nvidia.com/certificates/5d58177d4fb040e2afbf8aca6deb30db/",
+      alt_name: "Nvidia",
+      color_code: "#76b900",
+    },
+    {
+      title: "ALX Data Science Course By ExploreAI (Sponsored by Mastercard)",
+      subtitle: "Alx Africa",
+      logo_path: "alx-logo.svg",
+      secondary_link: "https://www.alxafrica.com/",
+      certificate_link: "https://savanna.alxafrica.com/certificates/r7ZYpEcPJm",
+      alt_name: "ALX",
       color_code: "#FFFFFF",
     },
     {
@@ -419,105 +438,14 @@ const certifications = {
       color_code: "#FFFFFF",
     },
     {
-      title: "Fundamentals of Deep Learning",
-      subtitle: "Nvidia Deep Learning Institute",
-      logo_path: "nvidia-cert-logo.png",
-      secondary_link: "https://www.nvidia.com/en-us/training/",
-      certificate_link:
-        "https://courses.nvidia.com/certificates/5d58177d4fb040e2afbf8aca6deb30db/",
-      alt_name: "Nvidia",
-      color_code: "#76b900",
+      title: "Data analysis Course",
+      subtitle: "EgFWD scholarship",
+      logo_path: "udacityS.svg",
+      secondary_link: "https://egfwd.com/",
+      certificate_link: "https://graduation.udacity.com/confirm/LRDA44QV",
+      alt_name: "Udacity",
+      color_code: "#FFFFFF",
     },
-    // {
-    //   title: "ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
-    // {
-    //   title: "Data Science",
-    //   subtitle: "- Alex Aklson",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Big Data",
-    //   subtitle: "- Kim Akers",
-    //   logo_path: "microsoft_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-    //   alt_name: "Microsoft",
-    //   color_code: "#D83B0199",
-    // },
-    // {
-    //   title: "Advanced Data Science",
-    //   subtitle: "- Romeo Kienzler",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Advanced ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
-    // {
-    //   title: "DL on Tensorflow",
-    //   subtitle: "- Laurence Moroney",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "Fullstack Development",
-    //   subtitle: "- Jogesh Muppala",
-    //   logo_path: "coursera_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-    //   alt_name: "Coursera",
-    //   color_code: "#2A73CC",
-    // },
-    // {
-    //   title: "Kuberenetes on GCP",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
-    // {
-    //   title: "Cryptography",
-    //   subtitle: "- Saurabh Mukhopadhyay",
-    //   logo_path: "nptel_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-    //   alt_name: "NPTEL",
-    //   color_code: "#FFBB0099",
-    // },
-    // {
-    //   title: "Cloud Architecture",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
   ],
 };
 
@@ -531,6 +459,37 @@ const experience = {
     {
       title: "Work Experience",
       experiences: [
+        {
+          title: "Data Engineer I", 
+          company: "Raisa Energy",
+          company_url: "https://raisa.com/",
+          logo_path: "raisa.png",
+          duration: "Oct 2024 - Present",
+          location: "Cairo, Egypt",
+          description: 
+          `<ul>
+          <li>Engineered custom dbt incremental strategies and materializations reducing pipeline build times by 70%, optimizing operational costs</li>
+          <li>Architected and implemented end-to-end CI/CD pipeline for dbt projects, establishing automated testing and deployment workflows</li>
+          <li>Designed and optimized complex data models powering mission-critical Power BI analytics dashboards</li>
+          <li>Published technical blog post on dbt CI pipeline implementation</li>
+          </ul>`,
+          color: "#0879bf"
+        },
+        {
+          title: "Data Engineering Intern",
+          company: "Raisa Energy",
+          company_url: "https://raisa.com/",
+          logo_path: "raisa.png", 
+          duration: "Jul 2024 - Sep 2024",
+          location: "Cairo, Egypt",
+          description:
+          `<ul>
+          <li>Spearheaded the modernization of dbt infrastructure, enhancing data transformation processes and pipeline efficiency</li>
+          <li>Demonstrated exceptional performance leading to promotion to Data Engineer I role within 3 months</li>
+          <li>Collaborated with cross-functional teams to translate complex business requirements into scalable data solutions</li>
+          </ul>`,
+          color: "#0879bf"
+        },
         {
           title: "Software Engineer for AI Training Data",
           company: "Outlier.Ai",
