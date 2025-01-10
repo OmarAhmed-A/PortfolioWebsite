@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ea79125b.css",
-    "main.js": "/static/js/main.1b1a8c45.js",
+    "main.js": "/static/js/main.6442f5fa.js",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/outlier.svg": "/static/media/outlier.c250c10f761c8b845237.svg",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
@@ -45,6 +45,7 @@
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.235a1aa30ba10c7d00d0.ttf",
     "static/media/developerActivity.svg": "/static/media/developerActivity.ca9786f2c99dabf0fe97.svg",
     "static/media/github_logo.png": "/static/media/github_logo.15e591a7397b9ef45656.png",
+    "static/media/raisa.png": "/static/media/raisa.3806ebd5661f76080ce3.png",
     "static/media/googleAssistant.jpg": "/static/media/googleAssistant.547075a751cc15673246.jpg",
     "static/media/projects_image.svg": "/static/media/projects_image.8a4ed8b12582165002f5.svg",
     "static/media/programmer.svg": "/static/media/programmer.29a495f0424f44828e03.svg",
@@ -54,6 +55,7 @@
     "static/media/pwa.png": "/static/media/pwa.5107022416df1293dd12.png",
     "static/media/experience.svg": "/static/media/experience.c50c576af78a4172f78d.svg",
     "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
+    "static/media/visa-logo.png": "/static/media/visa-logo.a05453b4b203ed08557d.png",
     "static/media/CM6.ttf": "/static/media/CM6.e0e45e60f352b06f3a93.ttf",
     "static/media/udacity-2-logo.png": "/static/media/udacity-2-logo.92f7118e301ef1674358.png",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
@@ -69,14 +71,15 @@
     "static/media/dell-logo.svg": "/static/media/dell-logo.e8102371e046a26cd9d4.svg",
     "index.html": "/index.html",
     "static/media/tp-icon.svg": "/static/media/tp-icon.f186a18b08a34eaa10ca.svg",
+    "static/media/alx-logo.svg": "/static/media/alx-logo.2c61c45f23a21f17cd15.svg",
     "static/media/googleAssistant.svg": "/static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.ea79125b.css.map": "/static/css/main.ea79125b.css.map",
-    "main.1b1a8c45.js.map": "/static/js/main.1b1a8c45.js.map"
+    "main.6442f5fa.js.map": "/static/js/main.6442f5fa.js.map"
   },
   "entrypoints": [
     "static/css/main.ea79125b.css",
-    "static/js/main.1b1a8c45.js"
+    "static/js/main.6442f5fa.js"
   ]
 }
