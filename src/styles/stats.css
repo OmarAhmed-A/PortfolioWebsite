@@ -1,0 +1,66 @@
+/* ============================================================
+   VOLT — stats: color-blocked bento strip
+============================================================ */
+.stats {
+  padding-block: 0 clamp(4rem, 8vh, 6rem);
+}
+
+.stats-list {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 3px solid var(--ink);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-hard);
+  background: var(--ink);
+  gap: 3px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.4rem;
+  min-height: 11rem;
+  padding: 1.7rem 1.5rem 1.5rem;
+  transition: transform 0.2s var(--ease-pop);
+}
+.stat:hover {
+  transform: scale(1.03) rotate(-0.6deg);
+  position: relative;
+  z-index: 1;
+}
+.stat:nth-child(1) { background: var(--cob); color: var(--cream); }
+.stat:nth-child(2) { background: var(--ink); color: var(--cream); }
+.stat:nth-child(3) { background: var(--org); color: #fff; }
+.stat:nth-child(4) { background: var(--yel); color: var(--ink); }
+
+.stat-value {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(2.1rem, 4.6vw, 3.6rem);
+  line-height: 0.95;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.stat-label {
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  line-height: 1.45;
+  opacity: 0.92;
+}
+
+@media (max-width: 760px) {
+  .stats-list {
+    grid-template-columns: 1fr 1fr;
+    border-radius: 18px;
+  }
+  .stat {
+    min-height: 8.5rem;
+    padding: 1.2rem 1.1rem 1.1rem;
+  }
+}

@@ -1,0 +1,196 @@
+/* ============================================================
+   VOLT — global tokens & base
+   cream canvas · ink borders · cobalt/orange/yellow accents
+============================================================ */
+:root {
+  --cream: #f8f1e2;
+  --paper: #fffdf7;
+  --ink: #16130e;
+  --ink-soft: #3a352a;
+  --cob: #2438f0;
+  --org: #ff5310;
+  --yel: #ffc733;
+
+  --font-display: 'Anton', 'Archivo Black', 'Avenir Next Condensed', 'Arial Narrow', 'Impact', sans-serif;
+  --font-body: 'Archivo', 'Avenir Next', 'Futura', 'Trebuchet MS', Verdana, sans-serif;
+
+  --container-max-width: 70rem;
+  --section-padding-inline: clamp(1.25rem, 4vw, 3rem);
+  --border: 2.5px solid var(--ink);
+  --shadow-hard: 7px 7px 0 var(--ink);
+
+  --ease-pop: cubic-bezier(0.18, 1.25, 0.3, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink);
+  background-color: var(--cream);
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--cob);
+  color: var(--cream);
+}
+
+:focus-visible {
+  outline: 3px solid var(--cob);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-block-start: 0;
+}
+
+/* ---------- shared layout ---------- */
+.container {
+  max-width: var(--container-max-width);
+  margin-inline: auto;
+  padding-inline: var(--section-padding-inline);
+}
+
+.section {
+  padding-block: clamp(4.5rem, 10vh, 7.5rem);
+  scroll-margin-top: 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* ---------- section heading: Anton + yellow highlighter ---------- */
+.sec-h {
+  display: inline-block;
+  position: relative;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2.1rem, 5.5vw, 3.6rem);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  line-height: 1.05;
+  margin: 0 0 0.35em;
+}
+.sec-h::after {
+  content: '';
+  position: absolute;
+  left: -0.06em;
+  right: -0.06em;
+  bottom: 0.08em;
+  height: 0.32em;
+  background: var(--yel);
+  z-index: -1;
+}
+
+/* ---------- Volt buttons ---------- */
+.btn {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.05rem 1.9rem;
+  border: var(--border);
+  border-radius: 999px;
+  background: var(--org);
+  color: #fff;
+  box-shadow: 6px 6px 0 var(--ink);
+  transition: transform 0.15s var(--ease-pop), box-shadow 0.15s var(--ease-pop);
+  cursor: pointer;
+}
+.btn:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+.btn:active {
+  transform: translate(6px, 6px);
+  box-shadow: 0 0 0 var(--ink);
+}
+.btn-alt {
+  background: var(--cream);
+  color: var(--ink);
+}
+.btn-yel {
+  background: var(--yel);
+  color: var(--ink);
+}
+
+/* ---------- scroll reveal (IntersectionObserver adds .in) ---------- */
+[data-rv] {
+  opacity: 0;
+  transform: translateY(26px) scale(0.98);
+  transition:
+    opacity 0.7s var(--ease-pop),
+    transform 0.7s var(--ease-pop);
+  transition-delay: calc(var(--i, 0) * 95ms);
+}
+[data-rv].in {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- page-load pop (hero) ---------- */
+@keyframes lv-pop {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+[data-lv] {
+  opacity: 0;
+  animation: lv-pop 0.75s var(--ease-pop) both;
+  animation-delay: calc(var(--i, 0) * 110ms + 120ms);
+}
+
+/* ---------- reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  [data-rv],
+  [data-lv] {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

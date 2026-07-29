@@ -1,0 +1,144 @@
+/* ============================================================
+   VOLT — education: three hard-shadow cards
+============================================================ */
+.education-grid {
+  margin-top: 2.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+
+.edu-card {
+  --ca: var(--cob);
+  position: relative;
+  background: var(--paper);
+  border: var(--border);
+  border-radius: 20px;
+  padding: 1.7rem 1.6rem;
+  box-shadow: var(--shadow-hard);
+  transition: transform 0.2s var(--ease-pop), box-shadow 0.2s var(--ease-pop);
+}
+.edu-card:nth-child(2) { --ca: var(--org); }
+.edu-card:nth-child(3) { --ca: var(--yel); }
+.edu-card:hover {
+  transform: translate(-4px, -4px) rotate(-0.4deg);
+  box-shadow: 12px 12px 0 var(--ca);
+}
+
+.edu-badge {
+  display: inline-grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  font-size: 1.2rem;
+  background: var(--ca);
+  color: #fff;
+  border: 2.5px solid var(--ink);
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.edu-card:nth-child(3) .edu-badge {
+  color: var(--ink);
+}
+
+.edu-card h3 {
+  margin: 0 0 0.9rem;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.edu-lead {
+  margin: 0 0 0.5rem;
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+.edu-period {
+  margin: 0 0 0.6rem;
+}
+.edu-period time {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: var(--ink);
+  color: var(--cream);
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+}
+.edu-body {
+  margin: 0;
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+
+.edu-certs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.7rem;
+}
+.edu-certs li {
+  position: relative;
+  padding-left: 1.4rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.edu-certs li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  font-size: 0.75rem;
+  color: var(--org);
+}
+
+/* certification links — Volt underline treatment */
+.edu-certs a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 3px solid var(--yel);
+  padding-bottom: 1px;
+  transition: color 0.2s, border-color 0.2s;
+}
+.edu-certs a::after {
+  content: '↗';
+  display: inline-block;
+  margin-left: 0.3em;
+  font-size: 0.85em;
+  font-weight: 900;
+  color: var(--cob);
+  transition: transform 0.2s var(--ease-pop), color 0.2s;
+}
+.edu-certs a:hover {
+  color: var(--cob);
+  border-bottom-color: var(--cob);
+}
+.edu-certs a:hover::after {
+  transform: translate(2px, -2px);
+  color: var(--org);
+}
+
+/* volunteering entries — breathing room between roles */
+.edu-vol + .edu-vol {
+  margin-top: 1.35rem;
+  padding-top: 1.25rem;
+  border-top: 2px dashed rgba(22, 19, 14, 0.25);
+}
+
+@media (max-width: 920px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+    max-width: 34rem;
+    margin-inline: auto;
+  }
+}

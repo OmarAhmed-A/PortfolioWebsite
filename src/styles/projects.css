@@ -1,0 +1,111 @@
+/* ============================================================
+   VOLT — projects: hard-shadow cards, per-card accent
+============================================================ */
+.projects-grid {
+  margin: 2.2rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+
+.project-card {
+  --ca: var(--cob);
+  background: var(--paper);
+  border: var(--border);
+  border-radius: 20px;
+  padding: 1.7rem 1.6rem 1.6rem;
+  box-shadow: var(--shadow-hard);
+  display: flex;
+  transition: transform 0.2s var(--ease-pop), box-shadow 0.2s var(--ease-pop);
+}
+.project-card:nth-child(2) { --ca: var(--org); }
+.project-card:nth-child(3) { --ca: var(--yel); }
+.project-card:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 13px 13px 0 var(--ca);
+}
+.project-card article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.project-idx {
+  font-family: var(--font-display);
+  font-size: 2.1rem;
+  line-height: 1;
+  color: var(--ca);
+}
+.project-card:nth-child(3) .project-idx {
+  color: var(--org); /* yellow is too light as bare text */
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+.project-tag {
+  align-self: flex-start;
+  margin: 0;
+  background: var(--ca);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  padding: 0.35rem 0.85rem;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+}
+.project-card:nth-child(3) .project-tag {
+  color: var(--ink);
+}
+
+.project-desc {
+  margin: 0;
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  flex: 1;
+}
+
+.project-link {
+  align-self: flex-start;
+  margin-top: 0.4rem;
+  font-weight: 800;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--cob);
+  border-bottom: 3px solid var(--cob);
+  padding-bottom: 2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+.project-link span {
+  display: inline-block;
+  transition: transform 0.2s var(--ease-pop);
+}
+.project-link:hover {
+  color: var(--org);
+  border-bottom-color: var(--org);
+}
+.project-link:hover span {
+  transform: translate(3px, -3px);
+}
+
+@media (max-width: 920px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    max-width: 34rem;
+    margin-inline: auto;
+  }
+}

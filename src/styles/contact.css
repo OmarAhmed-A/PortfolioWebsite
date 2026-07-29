@@ -1,0 +1,109 @@
+/* ============================================================
+   VOLT — contact: full-bleed cobalt band
+============================================================ */
+.contact {
+  position: relative;
+  background: var(--cob);
+  color: var(--cream);
+  border-top: 3px solid var(--ink);
+  padding-block: clamp(4.5rem, 10vh, 7rem);
+  scroll-margin-top: 5rem;
+  overflow: clip;
+}
+/* halftone dots, bottom-left */
+.contact::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(248, 241, 226, 0.14) 1.6px, transparent 1.7px);
+  background-size: 26px 26px;
+  -webkit-mask-image: radial-gradient(ellipse 55% 60% at 4% 100%, #000, transparent 70%);
+  mask-image: radial-gradient(ellipse 55% 60% at 4% 100%, #000, transparent 70%);
+}
+.contact .container {
+  position: relative;
+  z-index: 1;
+}
+
+.contact ::selection {
+  background: var(--yel);
+  color: var(--ink);
+}
+.contact :focus-visible {
+  outline-color: var(--yel);
+}
+
+.contact-h {
+  display: inline-block;
+  position: relative;
+  margin: 0 0 0.4em;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2.6rem, 7vw, 5rem);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  line-height: 1.02;
+}
+.contact-h::after {
+  content: '';
+  position: absolute;
+  left: -0.06em;
+  right: -0.06em;
+  bottom: 0.06em;
+  height: 0.32em;
+  background: var(--org);
+  z-index: -1;
+}
+
+.contact-lead {
+  margin: 0 0 1.8rem;
+  max-width: 34rem;
+  font-size: clamp(1.05rem, 2.2vw, 1.3rem);
+  font-weight: 600;
+  line-height: 1.55;
+}
+.contact-lead a {
+  font-weight: 800;
+  text-decoration: none;
+  border-bottom: 4px solid var(--yel);
+  padding-bottom: 2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+.contact-lead a:hover {
+  color: var(--yel);
+}
+
+.contact-btn {
+  border-color: var(--ink);
+  box-shadow: 6px 6px 0 rgba(12, 9, 4, 0.55);
+}
+.contact-btn:hover {
+  box-shadow: 2px 2px 0 rgba(12, 9, 4, 0.55);
+}
+.contact-btn:active {
+  box-shadow: 0 0 0 rgba(12, 9, 4, 0.55);
+}
+
+.contact-links {
+  margin: 2.8rem 0 0;
+  padding: 1.6rem 0 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 2.4rem;
+  border-top: 2px solid rgba(248, 241, 226, 0.35);
+}
+.contact-links a {
+  font-weight: 800;
+  font-size: clamp(0.95rem, 2vw, 1.15rem);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  border-bottom: 3px solid var(--cream);
+  padding-bottom: 3px;
+  transition: color 0.2s, border-color 0.2s;
+}
+.contact-links a:hover {
+  color: var(--yel);
+  border-bottom-color: var(--yel);
+}

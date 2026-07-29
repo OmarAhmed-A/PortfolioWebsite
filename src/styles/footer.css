@@ -1,0 +1,41 @@
+/* ============================================================
+   VOLT — footer: ink band
+============================================================ */
+.footer {
+  background: var(--ink);
+  color: var(--cream);
+  padding-block: 1.8rem;
+}
+.footer ::selection {
+  background: var(--org);
+  color: #fff;
+}
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem 1.5rem;
+}
+.footer-line {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+.footer-top {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--yel);
+  transition: color 0.2s, transform 0.2s var(--ease-pop);
+  display: inline-block;
+}
+.footer-top:hover {
+  color: var(--org);
+  transform: translateY(-2px);
+}

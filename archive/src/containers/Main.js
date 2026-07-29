@@ -14,7 +14,7 @@ import Alx from "../pages/Alx/AlxPage";
 export default class Main extends Component {
   render() {
     return (
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/old">
         <Switch>
           <Route
             path="/"
