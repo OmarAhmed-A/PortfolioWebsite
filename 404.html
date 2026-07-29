@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omar Ahmed Elsayed</title>
+    <script type="text/javascript">
+      // GitHub Pages serves this file for any unmatched path.
+      // - Deep links into the archived site (/old/*) are rewritten to
+      //   /old/?/... so the archived SPA (spa-github-pages decoder) can
+      //   restore the route client-side.
+      // - Anything else goes back to the home page (single-page site).
+      (function (l) {
+        var seg = l.pathname.split("/").filter(Boolean);
+        if (seg[0] === "old" && seg.length > 1) {
+          var rest = seg.slice(1).join("/").replace(/&/g, "~and~");
+          l.replace(
+            l.protocol +
+              "//" +
+              l.host +
+              "/old/?/" +
+              rest +
+              (l.search
+                ? "&" + l.search.slice(1).replace(/&/g, "~and~")
+                : "") +
+              l.hash
+          );
+        } else if (l.pathname !== "/" && l.pathname !== "/old") {
+          l.replace("/");
+        } else if (l.pathname === "/old") {
+          l.replace("/old/");
+        }
+      })(window.location);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting&hellip; <a href="/">Go to the home page</a>.</p>
+  </body>
+</html>
